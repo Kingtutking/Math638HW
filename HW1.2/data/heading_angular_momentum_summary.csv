@@ -1,0 +1,5 @@
+Case,Initial_Ltheta,Minimum_Ltheta,Maximum_Ltheta,Max_Absolute_Change,Max_Relative_Change
+Case 1,0.05,0.05,0.05,0.0,0.0
+Case 2,0.1,0.1,0.1,0.0,0.0
+Case 3,0.05,0.05,0.05,0.0,0.0
+Case 4,0.05,0.05,0.05,0.0,0.0
