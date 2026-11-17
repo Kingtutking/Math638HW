@@ -1,0 +1,49 @@
+BIJECTIVE DECODER RESULTS:
+ anchor_level        model  evaluated_positions  overall_accuracy  anchored_occurrences  anchored_accuracy  unanchored_occurrences  unanchored_accuracy  all_K_map_recovery  observed_type_map_recovery  observed_test_glyph_types  unanchored_map_recovery
+            5    attention                11557          0.089297                   645           0.987597                   10912             0.036199            0.024246                    0.054212                       1365                 0.002070
+            5 mlp_baseline                11557          0.089210                   645           0.986047                   10912             0.036199            0.023919                    0.053480                       1365                 0.002070
+           10    attention                11557          0.163797                  1100           0.982727                   10457             0.077651            0.045216                    0.101099                       1365                 0.005825
+           10 mlp_baseline                11557          0.163624                  1100           0.980909                   10457             0.077651            0.044561                    0.099634                       1365                 0.005825
+           20    attention                11557          0.267976                  2269           0.981930                    9288             0.093562            0.079292                    0.177289                       1365                 0.002867
+           20 mlp_baseline                11557          0.267284                  2269           0.978405                    9288             0.093562            0.077654                    0.173626                       1365                 0.002867
+           40    attention                11557          0.454270                  4174           0.979875                    7383             0.157118            0.158912                    0.355311                       1365                 0.008738
+           40 mlp_baseline                11557          0.452886                  4174           0.976042                    7383             0.157118            0.154653                    0.345788                       1365                 0.008738
+
+AMBIGUOUS DECODER RESULTS:
+ anchor_level        model  evaluated_positions  whole_text_accuracy  unanchored_occurrences  unanchored_accuracy  ambiguous_occurrences  ambiguous_accuracy  revealed_ambiguous_occurrences  revealed_ambiguous_accuracy  unrevealed_ambiguous_occurrences  unrevealed_ambiguous_accuracy  relation_groups_total  relation_groups_observed  relation_exact_all_groups  relation_exact_observed_groups  relation_mean_jaccard_observed
+            5    attention                11557             0.078827                   10912             0.027676                   5549            0.119661                             471                     0.940552                              5078                       0.043521                     40                        40                      0.200                           0.200                        0.225000
+            5 mlp_baseline                11557             0.073808                   10912             0.022727                   5549            0.109930                             471                     0.940552                              5078                       0.032887                     40                        40                      0.200                           0.200                        0.225000
+           10    attention                11557             0.149952                   10457             0.071149                   5549            0.178411                             844                     0.890995                              4705                       0.050584                     40                        40                      0.400                           0.400                        0.425000
+           10 mlp_baseline                11557             0.143290                   10457             0.065219                   5549            0.166516                             844                     0.886256                              4705                       0.037407                     40                        40                      0.400                           0.400                        0.425000
+           20    attention                11557             0.237086                    9288             0.073428                   5549            0.382952                            1701                     0.900059                              3848                       0.154366                     40                        40                      0.625                           0.625                        0.641667
+           20 mlp_baseline                11557             0.243402                    9288             0.081503                   5549            0.400793                            1701                     0.914168                              3848                       0.173857                     40                        40                      0.625                           0.625                        0.641667
+           40    attention                11557             0.421044                    7383             0.143031                   5549            0.558119                            2721                     0.897097                              2828                       0.231966                     40                        40                      0.800                           0.800                        0.833333
+           40 mlp_baseline                11557             0.417409                    7383             0.148178                   5549            0.560822                            2721                     0.888644                              2828                       0.245403                     40                        40                      0.800                           0.800                        0.833333
+
+ATTENTION ADVANTAGE COMPARISON:
+ anchor_level  bijective_whole_text_attention_advantage  bijective_unanchored_attention_advantage  ambiguous_whole_text_attention_advantage  ambiguous_unanchored_attention_advantage  ambiguous_occurrence_attention_advantage
+            5                                  0.000087                                       0.0                                  0.005019                                  0.004949                                  0.009731
+           10                                  0.000173                                       0.0                                  0.006663                                  0.005929                                  0.011894
+           20                                  0.000692                                       0.0                                 -0.006317                                 -0.008075                                 -0.017841
+           40                                  0.001384                                       0.0                                  0.003634                                 -0.005147                                 -0.002703
+
+SELECTED ATTENTION EXAMPLES:
+ example  position  observed_symbol_index  true_source_token_id  predicted_source_token_id  confidence                                                                                             selection_reason
+       1      4411                   2972                    76                         76    0.984728 same ambiguous observed symbol; different underlying values; different predictions; both predictions correct
+       2      4010                   2972                  1697                       1697    0.906299 same ambiguous observed symbol; different underlying values; different predictions; both predictions correct
+
+AGGREGATE ATTENTION SUMMARY:
+,,expected_absolute_attention_distance,expected_absolute_attention_distance,expected_absolute_attention_distance,expected_absolute_attention_distance,attention_entropy,attention_entropy,attention_entropy,attention_entropy
+,,count,mean,median,std,count,mean,median,std
+ambiguous_occurrence,correct,,,,,,,,
+False,False,5393,0.776351345142707,0.7352719185873866,0.4156693119607916,5393,1.2257105208575538,1.2788769006729126,0.3853031573964079
+False,True,615,0.9483625609786283,0.8674786149058491,0.5518586815589822,615,1.3062823233565664,1.323941946029663,0.43629727662668966
+True,False,3424,1.1204313856090367,1.043636744194373,0.39380661198272104,3424,1.075085334277578,1.070400893688202,0.3267416573472021
+True,True,2125,1.1573436012413023,1.0591805014410056,0.42488454117710883,2125,0.9668262520053369,0.9432929754257202,0.41295630302823266
+
+
+ATTENTION FIGURES TO INSPECT:
+task8_attention_matrix_example_1.png
+task8_attention_profile_example_1.png
+task8_attention_matrix_example_2.png
+task8_attention_profile_example_2.png

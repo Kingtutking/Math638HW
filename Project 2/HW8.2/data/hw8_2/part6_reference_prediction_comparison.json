@@ -1,0 +1,8 @@
+{
+  "reference_u_growth_rate": 0.05,
+  "simulated_late_u_growth_rate": 0.04694086627229962,
+  "reference_late_y_mean": 0.1,
+  "simulated_late_y_mean": 0.09306293487979901,
+  "reference_late_y_variance": 0.04000000000000001,
+  "simulated_late_y_variance": 0.039842366154331205
+}

@@ -1,0 +1,80 @@
+You are the critic for a Math 638 experiment that converts the Lorenz dynamical system into discrete token sequences and learns next-token Markov models.
+
+The numerical experiment is already complete. Do not redesign the model and do not invent new measurements.
+
+Use only the fixed evidence summary supplied below.
+
+Your tasks are:
+1. State which conclusions are strongly supported by the reported numbers.
+2. State which conclusions are plausible but not established by the experiment.
+3. Evaluate whether increasing context length actually improved next-token prediction.
+4. Evaluate whether the generated sequences remain near the Lorenz attractor.
+5. Evaluate whether the generated sequences reproduce the two-lobe switching behavior.
+6. Explain the measured tradeoff between coarse and fine phase-space discretization.
+7. Identify important observed failure modes.
+8. Identify hypotheses that were NOT tested.
+9. Check the physical interpretation carefully.
+
+Important mathematical constraints:
+- The chosen system is the classical Lorenz system.
+- Its divergence is -41/3 < 0, so it is dissipative.
+- This project did not choose the Hamiltonian/Kirchhoff system.
+- Do not claim that Hamiltonian energy, momentum, or Casimir invariants were preserved.
+- Do not call a generated trajectory physically valid merely because it looks visually plausible.
+- Distinguish evidence from speculation.
+
+Return two sections:
+A. Evidence-supported interpretation.
+B. Claims that would exceed the evidence.
+
+FIXED EVIDENCE SUMMARY:
+SYSTEM:
+Lorenz equations with sigma=10, rho=28, beta=8/3.
+The divergence is -41/3 < 0, so the system is dissipative.
+This is not the Hamiltonian/Kirchhoff option.
+
+VALIDATION CONTEXT RESULTS:
+ context_length_m  evaluated_positions  accuracy  exact_history_coverage  unseen_exact_history_fraction
+                1                12500  0.614480                0.999600                       0.000400
+                2                12490  0.699520                0.998479                       0.001521
+                3                12480  0.757212                0.995433                       0.004567
+
+FINAL TEST CONTEXT RESULTS:
+ context_length_m  evaluated_positions  accuracy  exact_history_coverage  unseen_exact_history_fraction  selected_by_validation
+                1                12500  0.606960                0.999440                       0.000560                   False
+                2                12490  0.694876                0.998078                       0.001922                   False
+                3                12480  0.759135                0.994471                       0.005529                    True
+
+VALIDATION-SELECTED MODEL:
+{
+  "selected_context_length_m": 3,
+  "selection_rule": "highest validation accuracy; smaller m breaks ties",
+  "validation_accuracy": 0.7572115384615384,
+  "candidate_context_lengths": [
+    1,
+    2,
+    3
+  ]
+}
+
+ATTRACTOR PROXIMITY:
+   dataset                      representation  primary_matched_comparison  count  mean_distance  median_distance  p95_distance  fraction_within_validation_box_center_p95_threshold
+validation continuous states (diagnostic only)                       False  12510       0.109597         0.094451      0.229200                                             1.000000
+      test continuous states (diagnostic only)                       False  12510       0.114213         0.095848      0.237179                                             1.000000
+validation                   token box centers                        True  12510       0.857274         0.690838      2.186888                                             0.950280
+      test                   token box centers                        True  12510       0.853639         0.655352      2.186888                                             0.950280
+ generated                   token box centers                        True 125100       0.848199         0.655352      2.186888                                             0.952054
+
+LOBE SWITCHING SUMMARY:
+                      switches_per_1000_steps                  mean_residence_time                 
+                                         mean median       std                mean median       std
+dataset                                                                                            
+generated_box_centers                  11.768   11.2  2.471121            1.653062  1.668  0.317765
+true_test_box_centers                  11.520   11.2  2.172965            1.673522  1.668  0.313381
+true_test_continuous                   11.360   11.2  2.058694            1.690897  1.668  0.300465
+
+DISCRETIZATION SENSITIVITY:
+ bins_per_axis  possible_vocabulary_size  observed_training_vocabulary_size  fixed_context_length_m  validation_accuracy  validation_exact_history_coverage  test_accuracy  test_exact_history_coverage  test_unseen_exact_history_fraction  test_quantization_rmse  train_clipped_fraction  validation_clipped_fraction  test_clipped_fraction
+             8                       512                                117                       3             0.773077                           0.997436       0.776042                     0.996635                            0.003365                3.063278                     0.0                          0.0                    0.0
+            12                      1728                                250                       3             0.757212                           0.995433       0.759135                     0.994471                            0.005529                2.041712                     0.0                          0.0                    0.0
+            20                      8000                                628                       3             0.747115                           0.982692       0.738862                     0.979888                            0.020112                1.226658                     0.0                          0.0                    0.0

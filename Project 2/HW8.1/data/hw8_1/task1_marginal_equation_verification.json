@@ -1,0 +1,9 @@
+{
+  "max_abs_alpha_equation_residual": 4.440892098500626e-16,
+  "max_abs_variance_equation_residual": 2.9802322387695312e-08,
+  "min_g_squared_on_check_grid": 0.0,
+  "alpha_0": 1.0,
+  "alpha_1": 6.123233995736766e-17,
+  "sigma_0": 0.25,
+  "sigma_1": 1.0
+}

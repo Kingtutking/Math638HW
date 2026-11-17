@@ -1,0 +1,5 @@
+context_length,trainable_parameters,best_epoch,validation_nll,validation_accuracy,training_seconds,checkpoint
+4,186576,10,0.5987788661537691,0.7688853247794707,13.685279899999841,data\hw6_1\attention_models\attention_context_04.pt
+8,186768,9,0.46127902312520425,0.8272727272727273,12.65666119999969,data\hw6_1\attention_models\attention_context_08.pt
+16,187152,10,0.4254759599322732,0.8367611336032389,12.931835700000192,data\hw6_1\attention_models\attention_context_16.pt
+32,187920,10,0.4241463026714873,0.8382280557834291,12.766392300000007,data\hw6_1\attention_models\attention_context_32.pt

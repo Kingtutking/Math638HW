@@ -1,0 +1,10 @@
+partition,context_radius_m,window_width,partition_tokens,valid_centers
+train,1,3,54082,54080
+validation,1,3,11589,11587
+test,1,3,11589,11587
+train,2,5,54082,54078
+validation,2,5,11589,11585
+test,2,5,11589,11585
+train,4,9,54082,54074
+validation,4,9,11589,11581
+test,4,9,11589,11581

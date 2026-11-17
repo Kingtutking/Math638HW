@@ -1,0 +1,16 @@
+word,segments,reconstructed_word,fallback_used
+philosophy,phi | los | o | phy,philosophy,False
+justice,jus | tice,justice,False
+nature,na | ture,nature,False
+reason,rea | son,reason,False
+virtue,virtue,virtue,False
+socrates,socrates,socrates,False
+knowledge,knowl | edge,knowledge,False
+unconscionableness,un | con | scionable | ness,unconscionableness,False
+incomprehensible,in | com | pre | hen | si | ble,incomprehensible,False
+prestidigitators,pres | tidig | i | ta | tors,prestidigitators,False
+uncharitableness,un | char | i | ta | ble | ness,uncharitableness,False
+unpassionateness,un | pas | sion | ate | ness,unpassionateness,False
+contentiousness,con | tentious | ness,contentiousness,False
+excrementitious,ex | cre | men | ti | tious,excrementitious,False
+notwithstanding,not | with | stand | ing,notwithstanding,False

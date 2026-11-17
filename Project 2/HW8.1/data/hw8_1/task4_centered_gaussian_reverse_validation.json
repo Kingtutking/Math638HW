@@ -1,0 +1,8 @@
+{
+  "samples": 5000,
+  "rk4_steps": 1000,
+  "rmse": 6.56808551737408e-13,
+  "max_abs_error": 2.2435386881625163e-12,
+  "generated_variance": 0.06159761845998677,
+  "target_variance": 0.0625
+}

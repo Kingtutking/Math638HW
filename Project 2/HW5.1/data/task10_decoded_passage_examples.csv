@@ -1,0 +1,7 @@
+passage_type,selection_tie_break,number_of_tied_raw_windows,raw_window_start_global_token,raw_window_end_global_token,raw_window_correct_tokens,raw_window_tokens,raw_window_accuracy,expanded_start_global_token,expanded_end_global_token,expanded_correct_tokens,expanded_tokens,expanded_accuracy,decoded_prediction,true_plaintext
+successful,earliest starting window among ties,4,68644,68663,12,20,0.6,68644,68663,12,20,0.6,"to in nation of in universe?
+
+men contemn per animi, and yet men seek to","to the nature of the universe?
+
+they contemn one another, and yet they seek to"
+failed,earliest starting window among ties,25,66059,66078,0,20,0.0,66058,66078,1,21,0.047619047619047616,"eithan per fect, not in imi fect, ing said ac powmoreca tions yesiwould, so the","either one way, or the other way, is not any external thing properly, but that"

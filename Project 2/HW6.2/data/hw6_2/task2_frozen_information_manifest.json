@@ -1,0 +1,57 @@
+{
+  "homework": "6.2",
+  "reuse_hw5_1": true,
+  "source_vocabulary_size": 3052,
+  "max_architecture_context_radius": 16,
+  "splits": {
+    "train": "data\\hw6_2\\carried_over_hw5_1\\splits\\train_glyph_sequence.csv",
+    "validation": "data\\hw6_2\\carried_over_hw5_1\\splits\\validation_glyph_sequence.csv",
+    "test": "data\\hw6_2\\carried_over_hw5_1\\splits\\test_glyph_sequence.csv"
+  },
+  "anchors": {
+    "05": "data\\hw6_2\\carried_over_hw5_1\\anchors\\anchors_05.csv",
+    "10": "data\\hw6_2\\carried_over_hw5_1\\anchors\\anchors_10.csv",
+    "20": "data\\hw6_2\\carried_over_hw5_1\\anchors\\anchors_20.csv",
+    "40": "data\\hw6_2\\carried_over_hw5_1\\anchors\\anchors_40.csv"
+  },
+  "pseudo_label_maps": {
+    "05": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_05.csv",
+    "10": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_10.csv",
+    "20": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_20.csv",
+    "40": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_40.csv"
+  },
+  "source_vocabulary": "data\\hw6_2\\carried_over_hw5_1\\source_syllable_vocabulary.csv",
+  "evaluation_only_hidden_map": "data\\hw6_2\\carried_over_hw5_1\\evaluation_only\\hidden_syllable_glyph_bijection.csv",
+  "common_evaluation_positions": "data\\hw6_2\\task2_common_evaluation_positions.csv",
+  "allowed_information": {
+    "training_glyphs": true,
+    "revealed_anchors": true,
+    "frozen_republic_information": true,
+    "carried_over_pseudo_labels": true,
+    "unrevealed_meditations_plaintext_for_fitting": false,
+    "unrevealed_true_map_for_fitting": false,
+    "test_labels_for_fitting_or_selection": false
+  },
+  "pseudo_map_source_discovery": {
+    "05": {
+      "source_path": "C:\\Users\\benja\\OneDrive\\Univeristy of Alabama courses\\Math 638\\Project 2\\HW5.1\\data\\inferred_maps\\inferred_map_05.csv",
+      "copied_path": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_05.csv",
+      "rows": 3052
+    },
+    "10": {
+      "source_path": "C:\\Users\\benja\\OneDrive\\Univeristy of Alabama courses\\Math 638\\Project 2\\HW5.1\\data\\inferred_maps\\inferred_map_10.csv",
+      "copied_path": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_10.csv",
+      "rows": 3052
+    },
+    "20": {
+      "source_path": "C:\\Users\\benja\\OneDrive\\Univeristy of Alabama courses\\Math 638\\Project 2\\HW5.1\\data\\inferred_maps\\inferred_map_20.csv",
+      "copied_path": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_20.csv",
+      "rows": 3052
+    },
+    "40": {
+      "source_path": "C:\\Users\\benja\\OneDrive\\Univeristy of Alabama courses\\Math 638\\Project 2\\HW5.1\\data\\inferred_maps\\inferred_map_40.csv",
+      "copied_path": "data\\hw6_2\\carried_over_hw5_1\\pseudo_label_maps\\pseudo_map_40.csv",
+      "rows": 3052
+    }
+  }
+}

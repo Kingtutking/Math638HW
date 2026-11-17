@@ -1,0 +1,6 @@
+candidate_failure,status,evidence,interpretation_limit
+too few anchors,directly tested,unanchored accuracy changes from 0.0362 at 5% anchors to 0.1571 at 40% anchors,anchor level changes supervision directly; it does not isolate all other identification limits
+too little training text,directly tested with prefix ablation,overall accuracy changes from 0.2625 at 25% text to 0.2680 at 100% text,"prefix ablation also changes which text is observed, not only the number of tokens"
+large / sparse vocabulary,partially tested through training-frequency stratification,lowest-frequency quartile accuracy=0.0841; highest-frequency quartile accuracy=0.2792,frequency association does not prove vocabulary size itself is causal
+model too small,directly varied across tested architectures,"best tested validation NLL=0.1969 with 664,684 parameters; parameter/NLL Spearman correlation=-0.441","architecture, context, and parameter count vary together in parts of the sweep"
+attention weights do not correspond to useful context,directly tested with replacement/permutation interventions,"see task9_context_intervention_summary.csv for top-attention, low-attention, and permutation effects",a local intervention test does not make attention a complete causal explanation

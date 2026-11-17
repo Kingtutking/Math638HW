@@ -1,0 +1,10 @@
+{
+  "selected_context_length_m": 3,
+  "selection_rule": "highest validation accuracy; smaller m breaks ties",
+  "validation_accuracy": 0.7572115384615384,
+  "candidate_context_lengths": [
+    1,
+    2,
+    3
+  ]
+}

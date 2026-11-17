@@ -1,0 +1,9 @@
+anchor_level,model,validation_nll,validation_accuracy,best_epoch,trainable_parameters,checkpoint
+5,attention,0.37230735111063284,0.9082806956822704,6,660844,data\hw6_2\ambiguous_models\attention_ambiguous_anchors_05.pt
+5,mlp_baseline,0.4941560963585043,0.901877649909146,4,668236,data\hw6_2\ambiguous_models\mlp_baseline_ambiguous_anchors_05.pt
+10,attention,0.38847166858371734,0.9037812581119667,7,660844,data\hw6_2\ambiguous_models\attention_ambiguous_anchors_10.pt
+10,mlp_baseline,0.5015215440079901,0.9023968157826425,4,668236,data\hw6_2\ambiguous_models\mlp_baseline_ambiguous_anchors_10.pt
+20,attention,0.36293749674346254,0.9052522280868738,5,660844,data\hw6_2\ambiguous_models\attention_ambiguous_anchors_20.pt
+20,mlp_baseline,0.49522759933583904,0.9064636151250325,4,668236,data\hw6_2\ambiguous_models\mlp_baseline_ambiguous_anchors_20.pt
+40,attention,0.3723183757573704,0.9164142943670502,8,660844,data\hw6_2\ambiguous_models\attention_ambiguous_anchors_40.pt
+40,mlp_baseline,0.4958346634987183,0.9055983386692048,4,668236,data\hw6_2\ambiguous_models\mlp_baseline_ambiguous_anchors_40.pt

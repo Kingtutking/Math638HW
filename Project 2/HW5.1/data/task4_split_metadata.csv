@@ -1,0 +1,4 @@
+partition,start_original_position,end_original_position,token_count,fraction_of_full_sequence
+train,0,54081,54082,0.7
+validation,54082,65670,11589,0.15
+test,65671,77259,11589,0.15

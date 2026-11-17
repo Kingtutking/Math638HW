@@ -1,0 +1,16 @@
+{
+  "projection": "x-z",
+  "width": 256,
+  "height": 256,
+  "line_width": 1,
+  "x_bounds": [
+    -22.649958701538726,
+    22.714981412019714
+  ],
+  "z_bounds": [
+    -0.3624469924123681,
+    54.8753381465195
+  ],
+  "bound_fit_split": "train",
+  "padding_fraction": 0.05
+}

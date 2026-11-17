@@ -1,0 +1,10 @@
+{
+  "true_l0_for_scoring_only": 0.0,
+  "map_l0": -0.09750000000000003,
+  "posterior_mean_l0": -0.011900686698886415,
+  "posterior_ci_95_low": -0.9425,
+  "posterior_ci_95_high": 0.9375,
+  "map_x_rmse": 0.10171843051587393,
+  "map_l_rmse": 0.10171843051587393,
+  "baseline_x_equals_y_rmse": 0.14247988609774204
+}

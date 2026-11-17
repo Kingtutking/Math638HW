@@ -1,0 +1,15 @@
+{
+  "trajectory_samples": 2501,
+  "trajectory_vector_dimension": 7503,
+  "image_height": 256,
+  "image_width": 256,
+  "image_channels": 3,
+  "image_array_shape": [
+    256,
+    256,
+    3
+  ],
+  "flattened_image_dimension": 196608,
+  "normalized_pixel_min": 0.0,
+  "normalized_pixel_max": 1.0
+}

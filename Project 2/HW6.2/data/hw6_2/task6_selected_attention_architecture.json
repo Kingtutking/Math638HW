@@ -1,0 +1,13 @@
+{
+  "anchor_level_used_for_selection": 20,
+  "selection_metric": "minimum validation pseudo-label NLL; fewer parameters break ties",
+  "selected_config": {
+    "embed_dim": 96,
+    "radius": 4,
+    "num_heads": 2,
+    "num_layers": 1
+  },
+  "validation_nll": 0.19685360360972823,
+  "validation_accuracy": 0.9802716968071299,
+  "trainable_parameters": 664684
+}

@@ -1,0 +1,5 @@
+formula,drift_at_x_equals_1_t_equals_0_5,contracts_positive_x
+correct reverse-clock probability flow,-1.3859967589366737,True
+wrong score sign probability flow,4.527589412526466,False
+correct reverse-clock SDE,-4.342789844668244,True
+wrong score sign SDE,7.484382498258037,False

@@ -1,0 +1,6 @@
+theme,requested_rewarded_words,rewarded_words_in_odyssey,requested_probe_words,probe_words_in_odyssey,rewarded_word_count_in_vocab,probe_word_count_in_vocab
+discipline,endure|patient|command|obey|labour,endure|patient|command|obey|labour,steady|rule|habit|control|restraint,rule|habit,5,2
+mortality,death|die|dead|mortal|grave,death|die|dead|mortal|grave,life|fate|perish|end|dust,life|fate|perish|end|dust,5,5
+anger,anger|angry|wrath|rage|fury,anger|angry|wrath|rage|fury,calm|peace|restrain|forgive|gentle,calm|peace|restrain|forgive|gentle,5,5
+duty,duty|obey|command|service|oath,duty|obey|command|service|oath,task|honour|work|responsibility|obligation,task|honour|work,5,3
+self-command,master|mind|heart|hold|endure,master|mind|heart|hold|endure,control|restraint|govern|temper|steady,govern|temper,5,2

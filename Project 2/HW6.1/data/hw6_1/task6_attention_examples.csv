@@ -1,0 +1,3 @@
+example,target_position,predicted_token,true_token,correct
+near_lobe_switch,102,795,939,False
+within_one_lobe,32,616,616,True

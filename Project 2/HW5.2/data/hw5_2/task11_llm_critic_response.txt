@@ -1,0 +1,23 @@
+
+A. Evidence-supported interpretation.
+
+1. Context length: Increasing the tested context from m=1 to m=3 materially improved next-token prediction. Validation accuracy rose from 0.61448 at m=1 to 0.69952 at m=2 and 0.75721 at m=3. The independently reported test accuracies show the same pattern, ending at 0.75913 for the validation-selected m=3 model. Exact length-3 history coverage remains about 99.45% on test, so the improvement is not primarily produced by fallback to shorter histories. The supported conclusion is only that m=3 was best among the tested values {1,2,3}; longer contexts were not tested.
+
+2. Attractor proximity: The primary comparison must be representation-matched because generated states are box centers. With the threshold fixed as the 95th percentile of validation box-center distances to the continuous training cloud, about 95.03% of held-out test box centers and 95.21% of generated box centers are within the threshold. Their mean nearest-neighbor distances are also similar (about 0.854 for test box centers and 0.848 for generated box centers). This supports the limited claim that generated tokens remain in roughly the same coarse phase-space support as quantized held-out Lorenz data. Because an empirical Markov model emits only training-observed next tokens, this support result is partly built in by construction; it is not independent proof of correct dynamics and does not show that generated sequences are exact Lorenz solutions.
+
+3. Two-lobe switching: The generated sequences reproduce the tested switching statistics reasonably well. The mean switch rate is about 11.52 switches per 1000 steps for true test box-center trajectories and 11.77 for generated trajectories. Mean lobe-residence times are also close, roughly 1.67 and 1.65 time units. This is evidence for reproducing this particular coarse long-time feature, not for reproducing the full invariant measure or all chaotic statistics.
+
+4. Discretization: The measured tradeoff is clear. With 8, 12, and 20 bins per coordinate, possible vocabulary size grows from 512 to 1,728 to 8,000; observed training vocabulary grows from 117 to 250 to 628. Test quantization RMSE improves from 3.063 to 2.042 to 1.227, but test next-token accuracy decreases from 0.7760 to 0.7591 to 0.7389 and the unseen exact length-3 history fraction rises from 0.00337 to 0.00553 to 0.02011. Finer boxes preserve more geometry but make the sequence problem larger and sparser.
+
+5. Physical interpretation: The Lorenz system here is dissipative because the divergence is -41/3. The experiment did not use a Hamiltonian system, so energy, momentum, and Casimir conservation are not appropriate success criteria. The generated sequences should be described as samples from a learned discrete Markov model, not as numerical solutions of the Lorenz ODE.
+
+6. Observed limitations: Prediction is not perfect even at m=3, and finer discretization reduces accuracy while increasing unseen histories. The attractor and switching tests are coarse diagnostics based on box centers and selected summary statistics. They do not test every aspect of long-horizon Lorenz dynamics.
+
+B. Claims that would exceed the evidence.
+
+- It would exceed the evidence to claim that m=3 is globally optimal or that more context can never help; only m=1,2,3 were tested.
+- It would exceed the evidence to claim that the generated process has the same invariant measure, Lyapunov exponents, entropy, or chaotic dynamics as the Lorenz ODE; none of those quantities were measured.
+- It would exceed the evidence to call the generated paths exact or physically valid Lorenz trajectories. They are discrete box-center reconstructions sampled from empirical transition probabilities.
+- It would exceed the evidence to claim that finer discretization is always worse for prediction. Only three resolutions were tested with one fixed sampling interval, one data volume, and one selected context length.
+- It would exceed the evidence to attribute errors specifically to insufficient training trajectories, the sampling interval, the choice of uniform boxes, or random-seed variability because those factors were not varied.
+- It would be physically incorrect to discuss conservation of Hamiltonian energy, momentum, or Casimir invariants as requirements for this selected dissipative Lorenz experiment.

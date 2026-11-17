@@ -1,0 +1,81 @@
+SYSTEM:
+Classical Lorenz system with sigma=10, rho=28, beta=8/3.
+The system is deterministic, dissipative, and chaotic.
+
+MARKOV TEST RESULTS:
+ context_length_m  evaluated_positions  accuracy  exact_history_coverage  unseen_exact_history_fraction  selected_by_validation
+                1                12500  0.615440                0.999840                       0.000160                   False
+                2                12490  0.698479                0.997998                       0.002002                   False
+                3                12480  0.758173                0.994712                       0.005288                    True
+
+ATTENTION VALIDATION RESULTS:
+ context_length  trainable_parameters  best_epoch  validation_nll  validation_accuracy  training_seconds                                          checkpoint
+              4                186576          10        0.598779             0.768885         13.685280 data\hw6_1\attention_models\attention_context_04.pt
+              8                186768           9        0.461279             0.827273         12.656661 data\hw6_1\attention_models\attention_context_08.pt
+             16                187152          10        0.425476             0.836761         12.931836 data\hw6_1\attention_models\attention_context_16.pt
+             32                187920          10        0.424146             0.838228         12.766392 data\hw6_1\attention_models\attention_context_32.pt
+
+ATTENTION TEST RESULTS:
+ context_length  test_nll  test_accuracy  evaluated_positions  selected_by_validation
+              4  0.570805       0.775140                12470                   False
+              8  0.456078       0.826629                12430                   False
+             16  0.416444       0.837976                12350                   False
+             32  0.415362       0.839212                12190                    True
+
+VALIDATION-SELECTED ATTENTION MODEL:
+{
+  "selected_attention_context_length": 32,
+  "selection_metric": "lowest validation negative log-likelihood",
+  "validation_nll": 0.4241463026714873,
+  "validation_accuracy": 0.8382280557834291,
+  "candidate_context_lengths": [
+    4,
+    8,
+    16,
+    32
+  ]
+}
+
+COMMON-SUPPORT ATTENTION RESULTS:
+     split  context_length  common_start_position  evaluated_positions      nll  accuracy
+validation               4                     32                12190 0.598656  0.768909
+validation               8                     32                12190 0.460849  0.827564
+validation              16                     32                12190 0.425505  0.836916
+validation              32                     32                12190 0.424146  0.838228
+      test               4                     32                12190 0.569040  0.775718
+      test               8                     32                12190 0.454731  0.826743
+      test              16                     32                12190 0.415905  0.838392
+      test              32                     32                12190 0.415362  0.839212
+
+SELECTED MODEL COMPARISON ON COMMON TARGET POSITIONS:
+           model  selected_context  common_start_position  test_accuracy  test_nll
+ Markov / m-gram                 3                     32       0.758737       NaN
+Causal attention                32                     32       0.839212  0.415362
+
+ATTENTION-LAG SUMMARY:
+ is_lobe_switch_target  count      mean    median      std
+                 False  12057 13.252350 13.173839 3.755743
+                  True    133 16.259528 16.581633 2.160958
+
+GENERATED SUPPORT COMPARISON:
+            dataset    representation  count  mean_distance  median_distance  p95_distance  fraction_within_validation_p95_threshold
+          true_test token box centers  12510       0.877832         0.747042      2.220875                                  0.951079
+   markov_generated token box centers 125100       0.862722         0.723608      2.220875                                  0.952022
+attention_generated token box centers 125100       0.890884         0.764908      2.225257                                  0.947906
+
+LOBE-SWITCHING SUMMARY (COMMON 32-TOKEN PREFIX):
+,switches_per_1000_steps,switches_per_1000_steps,switches_per_1000_steps,mean_residence_time,mean_residence_time,mean_residence_time
+,mean,median,std,mean,median,std
+dataset,,,,,,
+attention_generated,25.215999999999998,24.0,8.381590215791666,0.8505921524792306,0.8070967741935483,0.28074766510467475
+markov_generated,10.76,10.4,2.0384188762743336,1.7891794223346316,1.7871428571428574,0.3399305663792171
+true_test,10.959999999999999,10.4,2.7207842006794047,1.7777544147029443,1.7871428571428574,0.3731280744761751
+
+
+LOBE-SWITCHING SUMMARY AFTER REMOVING THE TRUE PREFIX:
+,switches_per_1000_steps,switches_per_1000_steps,switches_per_1000_steps,mean_residence_time,mean_residence_time,mean_residence_time
+,mean,median,std,mean,median,std
+dataset,,,,,,
+attention_generated,25.517241379310345,24.220032840722496,8.63119181534764,0.8446150530926944,0.7995591397849462,0.290714464527174
+markov_generated,10.689655172413794,10.673234811165846,2.132604603851557,1.8035958111530712,1.7414285714285713,0.36250358651907555
+true_test,10.83743842364532,10.262725779967159,2.731247936480493,1.7952091770974126,1.8084065934065934,0.3784852127429168

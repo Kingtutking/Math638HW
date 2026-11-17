@@ -1,0 +1,4 @@
+training_fraction,training_glyphs_used,training_windows,best_epoch,validation_nll,checkpoint,overall_test_accuracy,unanchored_test_accuracy,evaluated_positions
+0.25,13520,13512,7,0.5398799262162753,data\hw6_2\failure_mode_models\attention_text_fraction_025.pt,0.26252487669810504,0.0935615848406546,11557
+0.5,27041,27033,5,0.32333465165886444,data\hw6_2\failure_mode_models\attention_text_fraction_050.pt,0.26563987193908456,0.0935615848406546,11557
+1.0,54082,54074,4,0.19518946185082706,data\hw6_2\failure_mode_models\attention_text_fraction_100.pt,0.26797611836981916,0.0935615848406546,11557

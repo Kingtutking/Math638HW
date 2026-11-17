@@ -1,0 +1,5 @@
+{
+  "selected_context_length_m": 3,
+  "selection_rule": "highest validation accuracy; smaller m breaks ties",
+  "validation_accuracy": 0.752323717948718
+}

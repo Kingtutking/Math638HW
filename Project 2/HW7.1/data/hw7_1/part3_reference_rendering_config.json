@@ -1,0 +1,25 @@
+{
+  "projection": "x-z",
+  "width": 256,
+  "height": 256,
+  "line_width": 1,
+  "background_rgb": [
+    255,
+    255,
+    255
+  ],
+  "foreground_rgb": [
+    0,
+    0,
+    0
+  ],
+  "x_bounds": [
+    -19.060481488321912,
+    21.39393132629259
+  ],
+  "z_bounds": [
+    -1.381877183126769,
+    50.17764287627354
+  ],
+  "bound_fit_rule": "reference trajectory min/max with 5% padding"
+}

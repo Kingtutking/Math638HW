@@ -1,0 +1,12 @@
+quantity,value
+random_seed,63803
+source_vocabulary_size_K,3052
+source_syllable_count_L,77260
+glyph_vocabulary_size,3052
+glyph_label_width,4
+bijection_verified,True
+step2_sequence_match_verified,True
+separators_preserved_verified,True
+hidden_map_location,evaluation_only/hidden_syllable_glyph_bijection.csv
+glyph_corpus_location,decipherment_inputs/meditations_glyph_corpus.txt
+glyph_sequence_location,decipherment_inputs/meditations_glyph_token_sequence.csv

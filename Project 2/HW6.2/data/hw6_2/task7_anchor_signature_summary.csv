@@ -1,0 +1,6 @@
+signature,glyph_types,training_occurrences
+"(False, False, False, False)",1831,34423
+"(False, False, False, True)",611,8895
+"(False, False, True, True)",305,5683
+"(False, True, True, True)",152,2270
+"(True, True, True, True)",153,2811

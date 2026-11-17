@@ -1,0 +1,35 @@
+{
+  "seed": 63852,
+  "lorenz_parameters": {
+    "sigma": 10.0,
+    "rho": 28.0,
+    "beta": 2.6666666666666665
+  },
+  "trajectory_counts": {
+    "train": 40,
+    "validation": 10,
+    "test": 10
+  },
+  "transient_time": 5.0,
+  "record_time": 25.0,
+  "sampling_interval_dt": 0.02,
+  "baseline_bins": {
+    "x": 12,
+    "y": 12,
+    "z": 12
+  },
+  "possible_vocabulary_size": 1728,
+  "observed_training_vocabulary_size": 250,
+  "observed_overall_vocabulary_size": 257,
+  "training_fitted_lower_bounds": [
+    -20.551092152725094,
+    -27.92413736593468,
+    0.6595070279730013
+  ],
+  "training_fitted_upper_bounds": [
+    20.760441503277203,
+    28.616967467405306,
+    48.79435059332119
+  ],
+  "bound_padding_fraction": 0.05
+}

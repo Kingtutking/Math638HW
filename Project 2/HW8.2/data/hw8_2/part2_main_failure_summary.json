@@ -1,0 +1,14 @@
+{
+  "failure_probability": 0.5808,
+  "restricted_mean_survival": 95.313226,
+  "median_failure_time_if_reached": 98.09,
+  "censored_fraction": 0.4192,
+  "failure_probability_ci_low": 0.5669949999999999,
+  "failure_probability_ci_high": 0.5938,
+  "rmst_ci_low": 95.15548869999999,
+  "rmst_ci_high": 95.47817524999999,
+  "grid_crossing_detection_only": true,
+  "dt": 0.01,
+  "horizon": 100.0,
+  "n_paths": 5000
+}

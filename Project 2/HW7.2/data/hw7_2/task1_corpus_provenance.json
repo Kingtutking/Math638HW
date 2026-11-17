@@ -1,0 +1,22 @@
+{
+  "meditations": {
+    "author": "Marcus Aurelius",
+    "translator": "Meric Casaubon",
+    "source": "reused directly from completed Homework 5.1",
+    "local_file": "data/hw7_2/meditations_body.txt",
+    "characters": 312633,
+    "normalized_sha256": "4317d3565d43d4254a1623f8e961eea8f79418bd0b4d599db0343e8b0f03db73"
+  },
+  "odyssey": {
+    "author": "Homer",
+    "translator": "Samuel Butler",
+    "source": "MIT Internet Classics Archive plain-text edition",
+    "source_url": "https://classics.mit.edu/Homer/odyssey.mb.txt",
+    "input_mode": "raw",
+    "raw_local_file": "data/hw7_2/raw/odyssey_butler_mit.txt",
+    "cleaned_local_file": "data/hw7_2/odyssey_butler_body.txt",
+    "characters": 610469,
+    "normalized_sha256": "51ea5d35fc8f443f324724eb6cf0c8cdd8e30d984339b30f0402ab6e4c1bdb83",
+    "cleaning_rule": "retain BOOK I through immediately before THE END when raw source is available"
+  }
+}

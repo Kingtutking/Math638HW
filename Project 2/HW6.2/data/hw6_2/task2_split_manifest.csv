@@ -1,0 +1,4 @@
+split,rows,fraction_of_total,distinct_glyphs
+train,54082,0.7,2671
+validation,11589,0.15,1305
+test,11589,0.15,1365

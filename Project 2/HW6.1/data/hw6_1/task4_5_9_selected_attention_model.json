@@ -1,0 +1,12 @@
+{
+  "selected_attention_context_length": 32,
+  "selection_metric": "lowest validation negative log-likelihood",
+  "validation_nll": 0.4241463026714873,
+  "validation_accuracy": 0.8382280557834291,
+  "candidate_context_lengths": [
+    4,
+    8,
+    16,
+    32
+  ]
+}

@@ -1,0 +1,9 @@
+category,group,positions,accuracy
+anchor_status,anchored,2277,0.9600351339481774
+anchor_status,unanchored,9308,0.09368285345938977
+reference_coverage,true syllable appears in Republic,11256,0.26572494669509594
+reference_coverage,true syllable absent from Republic,329,0.20364741641337386
+training_glyph_frequency,lowest frequency quartile,416,0.004807692307692308
+training_glyph_frequency,second frequency quartile,126,0.12698412698412698
+training_glyph_frequency,third frequency quartile,588,0.18197278911564627
+training_glyph_frequency,highest frequency quartile,10455,0.2805356288857006

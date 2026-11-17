@@ -1,0 +1,4 @@
+dt,failure_probability,restricted_mean_survival,median_failure_time_if_reached,censored_fraction
+0.005,0.6006,95.121554,97.575,0.3994
+0.01,0.5962,95.159834,97.63,0.40380000000000005
+0.02,0.5886,95.252728,97.84,0.4114

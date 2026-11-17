@@ -1,0 +1,18 @@
+{
+  "seed": 63871,
+  "total_samples": 120,
+  "train_samples": 84,
+  "validation_samples": 18,
+  "test_samples": 18,
+  "trajectory_samples_per_condition": 2501,
+  "trajectory_vector_dimension": 7503,
+  "image_height": 256,
+  "image_width": 256,
+  "image_channels": 3,
+  "image_vector_dimension": 196608,
+  "render_bounds_fit_from": "train trajectories only",
+  "mean_validation_fraction_outside_render_bounds": 0.0,
+  "mean_test_fraction_outside_render_bounds": 0.0,
+  "max_validation_fraction_outside_render_bounds": 0.0,
+  "max_test_fraction_outside_render_bounds": 0.0
+}

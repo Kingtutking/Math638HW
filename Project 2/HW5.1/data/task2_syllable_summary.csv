@@ -1,0 +1,13 @@
+quantity,value
+meditations_total_syllables_L,77260
+meditations_vocabulary_size_K,3052
+republic_total_syllables,157157
+republic_vocabulary_size,4410
+shared_syllable_types,2240
+source_only_syllable_types,812
+reference_only_syllable_types,2170
+union_vocabulary_size,5222
+meditations_fallback_occurrences,0
+republic_fallback_occurrences,0
+meditations_reconstruction_failures,0
+republic_reconstruction_failures,0

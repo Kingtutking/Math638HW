@@ -1,0 +1,7 @@
+{
+  "common_true_prefix_length": 32,
+  "markov_order": 3,
+  "attention_context_length": 32,
+  "replicates_per_test_book": 10,
+  "note": "Both generators receive the same true held-out prefix. Future test tokens are never supplied."
+}

@@ -1,0 +1,12 @@
+{
+  "max_observed_L_increment": -7.264661094907865e-12,
+  "maximum_final_L": -0.27855834050903316,
+  "minimum_final_L": -1.066285049415831,
+  "innovation_mean": 0.00014351699179200584,
+  "innovation_variance": 0.9998699897014147,
+  "all_final_L_nonpositive": true,
+  "all_L_increments_nonpositive": true,
+  "final_x_mean": -0.5745770319001227,
+  "final_l_mean": -0.6136586570950003,
+  "final_y_mean": 0.039081625194877595
+}

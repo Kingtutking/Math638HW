@@ -1,0 +1,11 @@
+{
+  "dimension": 1,
+  "T": 1.0,
+  "y1": -2.0,
+  "y2": 2.0,
+  "a": 2.0,
+  "sigma0": 0.25,
+  "q": 0.9375,
+  "schedule": "alpha=cos(pi*t/2), sigma^2=1-q*alpha^2",
+  "endpoint_convention": "Use exact p_T=N(0,1); never evaluate singular forward SDE coefficients at t=1; use stabilized probability-flow velocity with continuous endpoint extension for reverse generation."
+}

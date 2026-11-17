@@ -1,0 +1,9 @@
+anchor_level,model,context_radius,window_length,embedding_dimension,attention_heads,attention_layers,mlp_hidden_dim,trainable_parameters,best_epoch,validation_nll,validation_accuracy,checkpoint
+5,attention,4,9,96,2,1,,664684,4,0.19445326193255558,0.9802716968071299,data\hw6_2\models\attention_anchors_05.pt
+5,mlp_baseline,4,9,96,0,0,96.0,672076,8,0.28278460056092525,0.9785411438954746,data\hw6_2\models\mlp_baseline_anchors_05.pt
+10,attention,4,9,96,2,1,,664684,4,0.19625757727087023,0.9802716968071299,data\hw6_2\models\attention_anchors_10.pt
+10,mlp_baseline,4,9,96,0,0,96.0,672076,8,0.2883435357160569,0.9788007268322229,data\hw6_2\models\mlp_baseline_anchors_10.pt
+20,attention,4,9,96,2,1,,664684,4,0.19666574558213662,0.9802716968071299,data\hw6_2\models\attention_anchors_20.pt
+20,mlp_baseline,4,9,96,0,0,96.0,672076,7,0.2846120348039193,0.9793198927057195,data\hw6_2\models\mlp_baseline_anchors_20.pt
+40,attention,4,9,96,2,1,,664684,4,0.1951347321408569,0.9802716968071299,data\hw6_2\models\attention_anchors_40.pt
+40,mlp_baseline,4,9,96,0,0,96.0,672076,8,0.28400342436803094,0.9782815609587263,data\hw6_2\models\mlp_baseline_anchors_40.pt

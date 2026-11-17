@@ -1,0 +1,133 @@
+{
+  "themes": [
+    "discipline",
+    "mortality",
+    "anger",
+    "duty",
+    "self-command"
+  ],
+  "marcus_search_words": {
+    "discipline": [
+      "work",
+      "labour",
+      "practice",
+      "action",
+      "nature",
+      "reason"
+    ],
+    "mortality": [
+      "death",
+      "die",
+      "dead",
+      "life",
+      "mortal",
+      "dissolution"
+    ],
+    "anger": [
+      "anger",
+      "angry",
+      "offence",
+      "injury",
+      "wrong",
+      "revenge"
+    ],
+    "duty": [
+      "duty",
+      "work",
+      "common",
+      "good",
+      "action",
+      "office"
+    ],
+    "self-command": [
+      "mind",
+      "self",
+      "passion",
+      "reason",
+      "soul",
+      "desire"
+    ]
+  },
+  "rewarded_words_requested": {
+    "discipline": [
+      "endure",
+      "patient",
+      "command",
+      "obey",
+      "labour"
+    ],
+    "mortality": [
+      "death",
+      "die",
+      "dead",
+      "mortal",
+      "grave"
+    ],
+    "anger": [
+      "anger",
+      "angry",
+      "wrath",
+      "rage",
+      "fury"
+    ],
+    "duty": [
+      "duty",
+      "obey",
+      "command",
+      "service",
+      "oath"
+    ],
+    "self-command": [
+      "master",
+      "mind",
+      "heart",
+      "hold",
+      "endure"
+    ]
+  },
+  "unboosted_probes_requested": {
+    "discipline": [
+      "steady",
+      "rule",
+      "habit",
+      "control",
+      "restraint"
+    ],
+    "mortality": [
+      "life",
+      "fate",
+      "perish",
+      "end",
+      "dust"
+    ],
+    "anger": [
+      "calm",
+      "peace",
+      "restrain",
+      "forgive",
+      "gentle"
+    ],
+    "duty": [
+      "task",
+      "honour",
+      "work",
+      "responsibility",
+      "obligation"
+    ],
+    "self-command": [
+      "control",
+      "restraint",
+      "govern",
+      "temper",
+      "steady"
+    ]
+  },
+  "conditioning_strength_lambda": 1.5,
+  "max_generated_words": 30,
+  "draws_per_theme_per_mode": 500,
+  "base_generation_seed": 63872,
+  "display_rule": "For each theme and mode, display the smallest sample_index with 8 to 30 words and not truncated; if none exists, use the smallest sample_index.",
+  "direct_llm_information": "theme label only",
+  "meditations_source": "reused Homework 5.1 cleaned corpus",
+  "odyssey_source": "MIT Internet Classics Archive, Samuel Butler translation"
+}

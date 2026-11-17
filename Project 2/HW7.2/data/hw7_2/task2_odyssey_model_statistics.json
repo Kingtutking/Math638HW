@@ -1,0 +1,7 @@
+{
+  "sentences": 3101,
+  "word_tokens_excluding_special_markers": 117641,
+  "vocabulary_size_including_end_marker": 6457,
+  "distinct_bigram_contexts": 6457,
+  "distinct_trigram_contexts": 46468
+}

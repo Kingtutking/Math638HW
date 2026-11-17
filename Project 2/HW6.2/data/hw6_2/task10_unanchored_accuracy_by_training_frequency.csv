@@ -1,0 +1,5 @@
+frequency_band,evaluated_unanchored_occurrences,unanchored_accuracy,mean_training_frequency
+Q3,341,0.0,4.486803519061583
+Q4_highest_frequency,8505,0.10217519106407995,466.610582010582
+Q1_lowest_frequency,340,0.0,0.4
+Q2,102,0.0,2.0

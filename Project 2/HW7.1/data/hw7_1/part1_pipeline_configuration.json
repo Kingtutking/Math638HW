@@ -1,0 +1,65 @@
+{
+  "homework": "7.1",
+  "condition_coordinates": [
+    "sigma",
+    "rho",
+    "beta",
+    "x0",
+    "y0",
+    "z0",
+    "T"
+  ],
+  "reference_condition": {
+    "sigma": 10.0,
+    "rho": 28.0,
+    "beta": 2.6666666666666665,
+    "x0": 1.0,
+    "y0": 1.0,
+    "z0": 1.0,
+    "T": 25.0
+  },
+  "time_discretization": {
+    "dt": 0.01,
+    "T": 25.0,
+    "M": 2500,
+    "samples_M_plus_1": 2501,
+    "trajectory_vector_dimension": 7503
+  },
+  "rendering": {
+    "projection": "x-z",
+    "height": 256,
+    "width": 256,
+    "channels": 3,
+    "flattened_image_dimension": 196608
+  },
+  "dataset_parameter_domain": {
+    "sigma": [
+      8.0,
+      12.0
+    ],
+    "rho": [
+      24.0,
+      32.0
+    ],
+    "beta": [
+      2.2,
+      3.0
+    ],
+    "x0": [
+      -15.0,
+      15.0
+    ],
+    "y0": [
+      -15.0,
+      15.0
+    ],
+    "z0": [
+      5.0,
+      35.0
+    ],
+    "T": [
+      25.0,
+      25.0
+    ]
+  }
+}

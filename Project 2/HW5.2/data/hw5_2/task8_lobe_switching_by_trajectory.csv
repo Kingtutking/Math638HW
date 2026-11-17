@@ -1,0 +1,121 @@
+dataset,representation,book,samples,switches,switches_per_1000_steps,mean_residence_steps,median_residence_steps,mean_residence_time
+true_test_continuous,continuous states,0,1251,16,12.8,73.58823529411765,42.0,1.471764705882353
+true_test_continuous,continuous states,1,1251,14,11.2,83.4,77.0,1.6680000000000001
+true_test_continuous,continuous states,2,1251,13,10.4,89.35714285714286,76.5,1.7871428571428574
+true_test_continuous,continuous states,3,1251,14,11.2,83.4,77.0,1.6680000000000001
+true_test_continuous,continuous states,4,1251,11,8.8,104.25,99.5,2.085
+true_test_continuous,continuous states,5,1251,15,12.0,78.1875,41.5,1.56375
+true_test_continuous,continuous states,6,1251,16,12.8,73.58823529411765,40.0,1.471764705882353
+true_test_continuous,continuous states,7,1251,14,11.2,83.4,40.0,1.6680000000000001
+true_test_continuous,continuous states,8,1251,19,15.2,62.55,42.5,1.251
+true_test_continuous,continuous states,9,1251,10,8.0,113.72727272727273,105.0,2.274545454545455
+true_test_box_centers,token box centers,0,1251,16,12.8,73.58823529411765,43.0,1.471764705882353
+true_test_box_centers,token box centers,1,1251,14,11.2,83.4,76.0,1.6680000000000001
+true_test_box_centers,token box centers,2,1251,13,10.4,89.35714285714286,76.5,1.7871428571428574
+true_test_box_centers,token box centers,3,1251,14,11.2,83.4,76.0,1.6680000000000001
+true_test_box_centers,token box centers,4,1251,11,8.8,104.25,98.5,2.085
+true_test_box_centers,token box centers,5,1251,17,13.6,69.5,40.0,1.3900000000000001
+true_test_box_centers,token box centers,6,1251,16,12.8,73.58823529411765,41.0,1.471764705882353
+true_test_box_centers,token box centers,7,1251,14,11.2,83.4,42.0,1.6680000000000001
+true_test_box_centers,token box centers,8,1251,19,15.2,62.55,42.0,1.251
+true_test_box_centers,token box centers,9,1251,10,8.0,113.72727272727273,105.0,2.274545454545455
+generated_box_centers,token box centers,0,1251,19,15.2,62.55,45.0,1.251
+generated_box_centers,token box centers,1,1251,13,10.4,89.35714285714286,78.5,1.7871428571428574
+generated_box_centers,token box centers,2,1251,21,16.8,56.86363636363637,42.0,1.1372727272727274
+generated_box_centers,token box centers,3,1251,16,12.8,73.58823529411765,42.0,1.471764705882353
+generated_box_centers,token box centers,4,1251,11,8.8,104.25,94.5,2.085
+generated_box_centers,token box centers,5,1251,15,12.0,78.1875,75.5,1.56375
+generated_box_centers,token box centers,6,1251,14,11.2,83.4,43.0,1.6680000000000001
+generated_box_centers,token box centers,7,1251,12,9.6,96.23076923076923,78.0,1.9246153846153846
+generated_box_centers,token box centers,8,1251,12,9.6,96.23076923076923,65.0,1.9246153846153846
+generated_box_centers,token box centers,9,1251,14,11.2,83.4,44.0,1.6680000000000001
+generated_box_centers,token box centers,10,1251,12,9.6,96.23076923076923,69.0,1.9246153846153846
+generated_box_centers,token box centers,11,1251,19,15.2,62.55,43.5,1.251
+generated_box_centers,token box centers,12,1251,17,13.6,69.5,48.5,1.3900000000000001
+generated_box_centers,token box centers,13,1251,12,9.6,96.23076923076923,72.0,1.9246153846153846
+generated_box_centers,token box centers,14,1251,18,14.4,65.84210526315789,62.0,1.3168421052631578
+generated_box_centers,token box centers,15,1251,13,10.4,89.35714285714286,62.0,1.7871428571428574
+generated_box_centers,token box centers,16,1251,13,10.4,89.35714285714286,95.0,1.7871428571428574
+generated_box_centers,token box centers,17,1251,17,13.6,69.5,43.0,1.3900000000000001
+generated_box_centers,token box centers,18,1251,17,13.6,69.5,52.5,1.3900000000000001
+generated_box_centers,token box centers,19,1251,14,11.2,83.4,46.0,1.6680000000000001
+generated_box_centers,token box centers,20,1251,12,9.6,96.23076923076923,86.0,1.9246153846153846
+generated_box_centers,token box centers,21,1251,14,11.2,83.4,44.0,1.6680000000000001
+generated_box_centers,token box centers,22,1251,12,9.6,96.23076923076923,62.0,1.9246153846153846
+generated_box_centers,token box centers,23,1251,12,9.6,96.23076923076923,70.0,1.9246153846153846
+generated_box_centers,token box centers,24,1251,10,8.0,113.72727272727273,72.0,2.274545454545455
+generated_box_centers,token box centers,25,1251,16,12.8,73.58823529411765,74.0,1.471764705882353
+generated_box_centers,token box centers,26,1251,17,13.6,69.5,55.0,1.3900000000000001
+generated_box_centers,token box centers,27,1251,12,9.6,96.23076923076923,75.0,1.9246153846153846
+generated_box_centers,token box centers,28,1251,15,12.0,78.1875,64.5,1.56375
+generated_box_centers,token box centers,29,1251,13,10.4,89.35714285714286,61.0,1.7871428571428574
+generated_box_centers,token box centers,30,1251,14,11.2,83.4,45.0,1.6680000000000001
+generated_box_centers,token box centers,31,1251,11,8.8,104.25,70.0,2.085
+generated_box_centers,token box centers,32,1251,12,9.6,96.23076923076923,98.0,1.9246153846153846
+generated_box_centers,token box centers,33,1251,13,10.4,89.35714285714286,50.5,1.7871428571428574
+generated_box_centers,token box centers,34,1251,12,9.6,96.23076923076923,51.0,1.9246153846153846
+generated_box_centers,token box centers,35,1251,13,10.4,89.35714285714286,59.5,1.7871428571428574
+generated_box_centers,token box centers,36,1251,16,12.8,73.58823529411765,55.0,1.471764705882353
+generated_box_centers,token box centers,37,1251,19,15.2,62.55,45.0,1.251
+generated_box_centers,token box centers,38,1251,14,11.2,83.4,42.0,1.6680000000000001
+generated_box_centers,token box centers,39,1251,14,11.2,83.4,42.0,1.6680000000000001
+generated_box_centers,token box centers,40,1251,11,8.8,104.25,74.5,2.085
+generated_box_centers,token box centers,41,1251,15,12.0,78.1875,76.0,1.56375
+generated_box_centers,token box centers,42,1251,12,9.6,96.23076923076923,81.0,1.9246153846153846
+generated_box_centers,token box centers,43,1251,18,14.4,65.84210526315789,44.0,1.3168421052631578
+generated_box_centers,token box centers,44,1251,16,12.8,73.58823529411765,77.0,1.471764705882353
+generated_box_centers,token box centers,45,1251,12,9.6,96.23076923076923,79.0,1.9246153846153846
+generated_box_centers,token box centers,46,1251,23,18.4,52.125,41.0,1.0425
+generated_box_centers,token box centers,47,1251,10,8.0,113.72727272727273,104.0,2.274545454545455
+generated_box_centers,token box centers,48,1251,10,8.0,113.72727272727273,89.0,2.274545454545455
+generated_box_centers,token box centers,49,1251,18,14.4,65.84210526315789,51.0,1.3168421052631578
+generated_box_centers,token box centers,50,1251,17,13.6,69.5,44.5,1.3900000000000001
+generated_box_centers,token box centers,51,1251,12,9.6,96.23076923076923,54.0,1.9246153846153846
+generated_box_centers,token box centers,52,1251,15,12.0,78.1875,60.0,1.56375
+generated_box_centers,token box centers,53,1251,14,11.2,83.4,74.0,1.6680000000000001
+generated_box_centers,token box centers,54,1251,18,14.4,65.84210526315789,46.0,1.3168421052631578
+generated_box_centers,token box centers,55,1251,12,9.6,96.23076923076923,75.0,1.9246153846153846
+generated_box_centers,token box centers,56,1251,21,16.8,56.86363636363637,46.5,1.1372727272727274
+generated_box_centers,token box centers,57,1251,18,14.4,65.84210526315789,40.0,1.3168421052631578
+generated_box_centers,token box centers,58,1251,14,11.2,83.4,71.0,1.6680000000000001
+generated_box_centers,token box centers,59,1251,14,11.2,83.4,49.0,1.6680000000000001
+generated_box_centers,token box centers,60,1251,14,11.2,83.4,48.0,1.6680000000000001
+generated_box_centers,token box centers,61,1251,14,11.2,83.4,71.0,1.6680000000000001
+generated_box_centers,token box centers,62,1251,20,16.0,59.57142857142857,43.0,1.1914285714285715
+generated_box_centers,token box centers,63,1251,14,11.2,83.4,76.0,1.6680000000000001
+generated_box_centers,token box centers,64,1251,18,14.4,65.84210526315789,49.0,1.3168421052631578
+generated_box_centers,token box centers,65,1251,15,12.0,78.1875,42.5,1.56375
+generated_box_centers,token box centers,66,1251,12,9.6,96.23076923076923,77.0,1.9246153846153846
+generated_box_centers,token box centers,67,1251,14,11.2,83.4,90.0,1.6680000000000001
+generated_box_centers,token box centers,68,1251,18,14.4,65.84210526315789,42.0,1.3168421052631578
+generated_box_centers,token box centers,69,1251,11,8.8,104.25,72.0,2.085
+generated_box_centers,token box centers,70,1251,17,13.6,69.5,54.0,1.3900000000000001
+generated_box_centers,token box centers,71,1251,14,11.2,83.4,51.0,1.6680000000000001
+generated_box_centers,token box centers,72,1251,11,8.8,104.25,64.5,2.085
+generated_box_centers,token box centers,73,1251,19,15.2,62.55,50.5,1.251
+generated_box_centers,token box centers,74,1251,12,9.6,96.23076923076923,63.0,1.9246153846153846
+generated_box_centers,token box centers,75,1251,9,7.2,125.1,108.5,2.502
+generated_box_centers,token box centers,76,1251,12,9.6,96.23076923076923,69.0,1.9246153846153846
+generated_box_centers,token box centers,77,1251,17,13.6,69.5,53.5,1.3900000000000001
+generated_box_centers,token box centers,78,1251,14,11.2,83.4,72.0,1.6680000000000001
+generated_box_centers,token box centers,79,1251,14,11.2,83.4,41.0,1.6680000000000001
+generated_box_centers,token box centers,80,1251,18,14.4,65.84210526315789,41.0,1.3168421052631578
+generated_box_centers,token box centers,81,1251,20,16.0,59.57142857142857,46.0,1.1914285714285715
+generated_box_centers,token box centers,82,1251,10,8.0,113.72727272727273,74.0,2.274545454545455
+generated_box_centers,token box centers,83,1251,20,16.0,59.57142857142857,40.0,1.1914285714285715
+generated_box_centers,token box centers,84,1251,11,8.8,104.25,77.0,2.085
+generated_box_centers,token box centers,85,1251,15,12.0,78.1875,48.5,1.56375
+generated_box_centers,token box centers,86,1251,12,9.6,96.23076923076923,82.0,1.9246153846153846
+generated_box_centers,token box centers,87,1251,16,12.8,73.58823529411765,46.0,1.471764705882353
+generated_box_centers,token box centers,88,1251,14,11.2,83.4,44.0,1.6680000000000001
+generated_box_centers,token box centers,89,1251,14,11.2,83.4,63.0,1.6680000000000001
+generated_box_centers,token box centers,90,1251,12,9.6,96.23076923076923,92.0,1.9246153846153846
+generated_box_centers,token box centers,91,1251,10,8.0,113.72727272727273,74.0,2.274545454545455
+generated_box_centers,token box centers,92,1251,17,13.6,69.5,42.0,1.3900000000000001
+generated_box_centers,token box centers,93,1251,19,15.2,62.55,49.5,1.251
+generated_box_centers,token box centers,94,1251,17,13.6,69.5,48.0,1.3900000000000001
+generated_box_centers,token box centers,95,1251,19,15.2,62.55,42.0,1.251
+generated_box_centers,token box centers,96,1251,18,14.4,65.84210526315789,50.0,1.3168421052631578
+generated_box_centers,token box centers,97,1251,22,17.6,54.391304347826086,43.0,1.0878260869565217
+generated_box_centers,token box centers,98,1251,15,12.0,78.1875,45.0,1.56375
+generated_box_centers,token box centers,99,1251,13,10.4,89.35714285714286,77.5,1.7871428571428574

@@ -1,0 +1,31 @@
+{
+  "homework": "6.2",
+  "task": 1,
+  "reuse_homework_5_1": true,
+  "source_corpus": {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "translator": "Meric Casaubon",
+    "project_gutenberg_ebook": 2680,
+    "complete_books": 12
+  },
+  "tokenization": {
+    "type": "written syllable segments",
+    "resource": "Pyphen",
+    "version": "0.18.1",
+    "patterns": "en_US",
+    "exact_word_reconstruction_required": true
+  },
+  "expected_source_token_occurrences": 77260,
+  "expected_source_vocabulary_size": 3052,
+  "expected_glyph_vocabulary_size": 3052,
+  "reuse_same_hidden_map_phi": true,
+  "generate_new_hidden_map": false,
+  "information_restrictions": {
+    "unrevealed_meditations_plaintext_available_for_fitting": false,
+    "unrevealed_hidden_map_entries_available_for_fitting": false,
+    "test_labels_available_for_fitting_or_selection": false,
+    "frozen_republic_reference_information_allowed": true,
+    "revealed_anchors_allowed": true
+  }
+}

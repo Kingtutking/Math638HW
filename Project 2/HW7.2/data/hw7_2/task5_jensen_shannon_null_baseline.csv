@@ -1,0 +1,11 @@
+first_unconditioned_group,second_unconditioned_group,js_distance
+discipline,mortality,0.340454572079573
+discipline,anger,0.33694443412091085
+discipline,duty,0.33581991176107223
+discipline,self-command,0.34229561175091094
+mortality,anger,0.337552450335011
+mortality,duty,0.3415051522024849
+mortality,self-command,0.3448130278540596
+anger,duty,0.33891744908159444
+anger,self-command,0.34385538296863355
+duty,self-command,0.34433936590539305
